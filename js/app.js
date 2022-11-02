@@ -13,7 +13,7 @@ console.log('user name is: ', userName);
 //userName.toLowerCase(); or the userName.toUpperCase();
 let lowerCaseName = userName.toLowerCase();
 
-console.log('Namer Lower Case: ', lowerCaseName)
+console.log('Namer Lower Case: ', lowerCaseName);
 
 
 //validate the input using some coditional logic
@@ -23,17 +23,17 @@ console.log('Namer Lower Case: ', lowerCaseName)
 
 //}
 if(lowerCaseName === 'bob' || lowerCaseName === 'larry'){
-    console.log('we are comparing lowercase:', lowerCaseName);
-    console.log('we are using his user name he provided', userName);
-    alert('Welcome back to the site: ' + userName);
+  console.log('we are comparing lowercase:', lowerCaseName);
+  console.log('we are using his user name he provided', userName);
+  alert('Welcome back to the site: ' + userName);
 } else {
-    alert('Welcome new user to my page!')
+  alert('Welcome new user to my page!');
 }
 
 
 
 
-//look at some data types: boolean, string, number, 
+//look at some data types: boolean, string, number,
 
 
 
