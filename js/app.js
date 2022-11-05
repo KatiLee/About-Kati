@@ -39,3 +39,14 @@ if(lowerCaseName === 'bob' || lowerCaseName === 'larry'){
 
 
 //introduction to arrays
+
+
+function question1(){
+  
+  if(true){
+    alert('You\'re right!' );
+
+  } else {
+    alert('Incorrect');
+  }
+}
