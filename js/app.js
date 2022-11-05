@@ -22,6 +22,8 @@ console.log('Namer Lower Case: ', lowerCaseName);
 //} else {
 
 //}
+
+function question1(){
 if(lowerCaseName === 'bob' || lowerCaseName === 'larry'){
   console.log('we are comparing lowercase:', lowerCaseName);
   console.log('we are using his user name he provided', userName);
@@ -29,7 +31,9 @@ if(lowerCaseName === 'bob' || lowerCaseName === 'larry'){
 } else {
   alert('Welcome new user to my page!');
 }
+}
 
+question1();
 
 
 
