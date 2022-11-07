@@ -1,27 +1,13 @@
 'use strict';
-console.log('app js is connected');
+console.log('Sup nerds?');
 
-//prompt our users for some input
+let userPoints = 0;
 
 let userName = prompt('What is your name?');
-
 console.log('user name is: ', userName);
-
-
-//convert to lowerCase
-
-//userName.toLowerCase(); or the userName.toUpperCase();
 let lowerCaseName = userName.toLowerCase();
+console.log('Name Lower Case: ', lowerCaseName);
 
-console.log('Namer Lower Case: ', lowerCaseName);
-
-
-//validate the input using some coditional logic
-//if(meet this condition then do the else){
-
-//} else {
-
-//}
 if(lowerCaseName === 'bob' || lowerCaseName === 'larry'){
   console.log('we are comparing lowercase:', lowerCaseName);
   console.log('we are using his user name he provided', userName);
@@ -30,12 +16,25 @@ if(lowerCaseName === 'bob' || lowerCaseName === 'larry'){
   alert('Welcome new user to my page!');
 }
 
+let catQuestion;
+let dogQuestion;
+let snowQuestion;
+let christmasQuestion;
+let plantsQuestion;
 
+catQuestion = prompt ('Do I have a cat?');
+if(catQuestion === 'y' || catQuestion === 'yes'){
+alert('You\'re right, she does. His name is Roary and he is most handsome-ist lil gentleman!');
+userPoints++;
+} else {
+  alert ('You\'re wrong, I do!');
+}
 
+dogQuestion = prompt ('Do I have a dog?');
+if(dogQuestion === 'n || dogQuestion === 'no'){
+  alert('Yeah, I don\'t and I am super sad about it, ok? I don\'t want to talk about it!');
+userPoints++;
+} else {
+  alert ('Nope, I don\'t.');
+}
 
-//look at some data types: boolean, string, number,
-
-
-
-
-//introduction to arrays
