@@ -8,6 +8,15 @@ console.log('user name is: ', userName);
 let lowerCaseName = userName.toLowerCase();
 console.log('Name Lower Case: ', lowerCaseName);
 
+console.log('Namer Lower Case: ', lowerCaseName);
+
+
+//validate the input using some coditional logic
+//if(meet this condition then do the else){
+
+//} else {
+
+//}
 if(lowerCaseName === 'bob' || lowerCaseName === 'larry'){
   console.log('we are comparing lowercase:', lowerCaseName);
   console.log('we are using his user name he provided', userName);
@@ -15,12 +24,13 @@ if(lowerCaseName === 'bob' || lowerCaseName === 'larry'){
 } else {
   alert('Welcome new user to my page!');
 }
+}
 
-let catQuestion;
-let dogQuestion;
-let snowQuestion;
-let christmasQuestion;
-let plantsQuestion;
+
+
+
+//look at some data types: boolean, string, number,
+
 
 catQuestion = prompt ('Do I have a cat?');
 if(catQuestion === 'y' || catQuestion === 'yes'){
