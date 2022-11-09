@@ -69,4 +69,44 @@ if (motorcycleQuestion = 4){
   
 }
 
+function instrumentQuestion(){
+  let instruments = ['vocals', 'piano', 'violin', 'flute', 'guitar', 'harmonica', 'trumpet', 'bassoon', 'oboe', 'bass', 'mandolin', 'bugel']
+  let attempts = 0;
+  let userTrys = 0;
 
+  while(attempts !== 6){
+    let theyResponded = prompt('What kind of musical instruments do you think I can play?');
+    let userInput = theyResponded.toLowerCase().trim();
+    console.log('user response: ', userInput);
+
+    if(instruments.indexOf(userInput) >= 0){
+      alert('Wow, you are right! I do play the ' + theyResponded + ' . Not well, but a little bit still counts, right?');
+      attempts = 6;
+      userTrys++;
+      userPoints++;
+      break;
+    } else {
+      alert('Oh man, I WISH I could play the ' + theyResponded + ' ! Maybe when I have more time on my hands.');
+      attempts++;
+    }
+    console.log('attempts after the if/else statement: ', attempts);
+  }
+
+  alert('Just in case you needed to know, here are the rest of the instruments I can play: ' + instruments.join(', '));
+  let sectionHTML = document.getElementById('instruments');
+  let message = 'You got ' + userPoints + ''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
